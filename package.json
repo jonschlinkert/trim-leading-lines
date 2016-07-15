@@ -1,7 +1,7 @@
 {
   "name": "trim-leading-lines",
   "description": "Trim leading lines from a string when they are 100% whitespace or empty.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/jonschlinkert/trim-leading-lines",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/trim-leading-lines",
@@ -43,5 +43,8 @@
       "verb-generate-readme",
       "verb"
     ]
+  },
+  "dependencies": {
+    "is-whitespace": "^0.3.0"
   }
 }
