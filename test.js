@@ -20,6 +20,14 @@ describe('trim-leading-lines', function() {
     }
   });
 
+  it('should return empty strings', function() {
+    assert.equal(trimLeadingLines(''), '');
+  });
+
+  it('should return original string if no newlines', function() {
+    assert.equal(trimLeadingLines('foo'), 'foo');
+  });
+
   it('should trim leading whitespace lines', function() {
     var fixture = [
       '                  ',
